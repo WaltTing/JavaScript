@@ -8,5 +8,5 @@
 [3] [跨域的实现](https://github.com/WaltTing/JavaScript/blob/master/%E8%B7%A8%E5%9F%9F%E7%9A%84%E5%AE%9E%E7%8E%B0.md)  
 [4] [Web端实时通讯技术](https://github.com/WaltTing/JavaScript/blob/master/WEB%E7%AB%AF%E5%AE%9E%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF.md)  
 [5] [JS继承](https://github.com/WaltTing/JavaScript/blob/master/JS%E7%BB%A7%E6%89%BF.md)   
-[6] [两种简便的数组去重方法](https://github.com/WaltTing/JavaScript/blob/master/%E4%B8%A4%E7%A7%8D%E7%AE%80%E4%BE%BF%E7%9A%84%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D%E6%96%B9%E6%B3%95.md)
-[7] 正则表达式
+[6] [两种简便的数组去重方法](https://github.com/WaltTing/JavaScript/blob/master/%E4%B8%A4%E7%A7%8D%E7%AE%80%E4%BE%BF%E7%9A%84%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D%E6%96%B9%E6%B3%95.md)   
+[7] [正则表达式](https://github.com/WaltTing/JavaScript/blob/master/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
