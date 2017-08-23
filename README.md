@@ -10,4 +10,5 @@
 [5] [JS继承](https://github.com/WaltTing/JavaScript/blob/master/JS%E7%BB%A7%E6%89%BF.md)   
 [6] [两种简便的数组去重方法](https://github.com/WaltTing/JavaScript/blob/master/%E4%B8%A4%E7%A7%8D%E7%AE%80%E4%BE%BF%E7%9A%84%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D%E6%96%B9%E6%B3%95.md)   
 [7] [正则表达式](https://github.com/WaltTing/JavaScript/blob/master/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)  
-[8] [字符串方法和数组方法总结](https://github.com/WaltTing/JavaScript/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%96%B9%E6%B3%95%E5%92%8C%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md)
+[8] [字符串方法和数组方法总结](https://github.com/WaltTing/JavaScript/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%96%B9%E6%B3%95%E5%92%8C%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.md)   
+[9] [网易笔试题之小易独立生活](https://github.com/WaltTing/JavaScript/blob/master/%E7%BD%91%E6%98%93%E7%AC%94%E8%AF%95%E9%A2%98%E4%B9%8B%E5%B0%8F%E6%98%93%E7%8B%AC%E7%AB%8B%E7%94%9F%E6%B4%BB.md)
