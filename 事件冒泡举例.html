@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #myBu {
+            width: 18em;
+            height: 10em;
+            background-color: yellow;
+            display: flex;
+        }
+        #parent {
+            width: 9em;
+            height: 5em;
+            background-color: blue;
+            margin: auto;
+            display: flex;
+        }
+        #son {
+            width: 5em;
+            height: 2em;
+            margin: auto;
+            background-color: #666666;
+        }
+    </style>
+</head>
+<body>
+<h1>事件冒泡</h1>
+<p>我们为什么要阻止事件冒泡：</p>
+<p>在这个案例中，我想要的本来是点击最中央的元素后返回该元素的id值，结果。。。</p>
+<div id="myBu">
+    <div id="parent">
+        <div id="son"></div>
+    </div>
+</div>
+</body>
+<script>
+    document.getElementById("myBu").addEventListener("click",function(){
+        event.target.style.backgroundColor= "#ECECEC";
+    },false);
+
+    document.getElementById("parent").addEventListener("click",function(){
+        alert(this.id);
+    },false);
+
+    document.getElementById("son").addEventListener("click",function(){
+        alert(this.id);
+    },false);
+
+</script>
+</html>
