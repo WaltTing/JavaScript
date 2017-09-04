@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div {
+            width: 40%;
+            background-color: yellow;
+            border: 1px dashed black;
+        }
+    </style>
+</head>
+
+<html>
+    <body>
+        <p>该实例演示了在添加事件监听时选择true和false的不同。</p>
+        <div id="div">
+            <p id="p">事件冒泡阶段执行：选择false，程序由里到外进行</p>
+        </div>
+
+        <br>
+        <div id="div2">
+            <p id="p2">事件捕获阶段执行：选择true，程序由外到里进行</p>
+        </div>
+    </body>
+    <script>
+        document.getElementById("p").addEventListener("click", function() {div
+            alert("你点击了 p 元素!");
+        }, false);
+
+
+        document.getElementById("div").addEventListener("click", function() {
+            alert("你点击了 div 元素!");
+        }, false);
+
+
+        document.getElementById("p2").addEventListener("click", function() {
+            alert("你点击了 p元素!");
+        }, true);
+
+
+        document.getElementById("div2").addEventListener("click", function() {
+            alert("你点击了 div元素!");
+        }, true);
+    </script>
+</html>
