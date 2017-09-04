@@ -14,4 +14,5 @@
 [9] [网易笔试题之小易独立生活](https://github.com/WaltTing/JavaScript/blob/master/%E7%BD%91%E6%98%93%E7%AC%94%E8%AF%95%E9%A2%98%E4%B9%8B%E5%B0%8F%E6%98%93%E7%8B%AC%E7%AB%8B%E7%94%9F%E6%B4%BB.md)   
 [10] [for循环和setTimeout的问题](https://github.com/WaltTing/JavaScript/blob/master/for%E5%BE%AA%E7%8E%AF%E5%92%8CsetTimeout%E7%9A%84%E9%97%AE%E9%A2%98.md)   
 [20] [DOM2（事件冒泡和事件捕获）](https://github.com/WaltTing/JavaScript/blob/master/DOM2%EF%BC%88%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%E5%92%8C%E4%BA%8B%E4%BB%B6%E6%8D%95%E8%8E%B7%EF%BC%89.html)   
-[21] [事件冒泡举例](https://github.com/WaltTing/JavaScript/blob/master/%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%E4%B8%BE%E4%BE%8B.html)
+[21] [事件冒泡举例](https://github.com/WaltTing/JavaScript/blob/master/%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%E4%B8%BE%E4%BE%8B.html)    
+[22] 事件委托实例及原理

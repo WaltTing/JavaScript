@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件委托</title>
+    <style>
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            float: left;
+            width: 6em;
+            height: 5em;
+            background-color: yellow;
+            text-align: center;
+            margin: 1em;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>事件委托</h1>
+    <div>
+        <p>事件委托的作用：如下图，只取得了一个DOM元素，对内存的消耗小</p>
+        <p>事件委托的过程：1.事件捕获阶段：事件从document到html再到body再到就结束了，这个阶段，不对添加的事件执行；</p>
+        <p>2.事件冒泡阶段：通过外层元素把响应绑定到事件父级元素，在执行的时候查找具体的元素。</p>
+        <p>事件委托的原理：事件委托就是利用事件冒泡原理，把处理任务委托给父元素或者祖先元素（通常用父元素），我们通过目标对象来判断事件源，并执行事件处理。</p>
+        <hr>
+        <p>点击下面的方块</p>
+    </div>
+    <ul id="parent">
+        <li id="one">one</li>
+        <li id="two">two</li>
+        <li id="three">three</li>
+        <li id="four">four</li>
+    </ul>
+</div>
+<script>
+    document.getElementById("parent").addEventListener("click",function(event) {
+        // 检查事件源e.targe是否为li
+        if(event.target && event.target.nodeName.toLowerCase() == "li") {
+            // 真正的处理过程在这里
+            switch(event.target.id){
+                case "one": event.target.innerHTML = "我被改了";break;
+                case "two": event.target.innerHTML = "我也被改了";break;
+                case "three": event.target.style.background = "red";break;
+                case "four": alert("the last one!");break;
+            }
+        }
+    },false);
+</script>
+</body>
+</html>
