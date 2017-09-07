@@ -16,4 +16,5 @@
 [20] [DOM2（事件冒泡和事件捕获）](https://github.com/WaltTing/JavaScript/blob/master/DOM2%EF%BC%88%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%E5%92%8C%E4%BA%8B%E4%BB%B6%E6%8D%95%E8%8E%B7%EF%BC%89.html)   
 [21] [事件冒泡举例](https://github.com/WaltTing/JavaScript/blob/master/%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%E4%B8%BE%E4%BE%8B.html)    
 [22] [事件委托实例及原理](https://github.com/WaltTing/JavaScript/blob/master/%E4%BA%8B%E4%BB%B6%E5%A7%94%E6%89%98%E5%AE%9E%E4%BE%8B%E5%8F%8A%E5%8E%9F%E7%90%86.html)  
-[23] [常见JS类型转换表](https://github.com/WaltTing/JavaScript/blob/master/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.md)
+[23] [常见JS类型转换表](https://github.com/WaltTing/JavaScript/blob/master/JS%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.md)   
+[24] [JS数组的增删改查](https://github.com/WaltTing/JavaScript/blob/master/JS%E6%95%B0%E7%BB%84%E7%9A%84%E5%A2%9E%E5%88%A0%E8%AF%A5%E6%9F%A5.md)
