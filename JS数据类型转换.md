@@ -19,5 +19,10 @@ Infinity|"Infinity"||true|new Number(Infinity)
 ['a']|使用join方法|NaN|true
 function(){}||NaN|true
 
-
+## 补充：
+  console.log("a"+1); //a1                     
+  console.log("a"-a); //NaN                        
+  console.log('a'-1); //NaN                         
+  console.log('a'+1); //a1 
+  
 更多内容待更新。。。。。。
