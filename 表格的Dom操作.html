@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test DOM</title>
+	</head>
+	<body>
+	<div>
+		<input type="button" value="ADD" onclick="addRow( )">
+		<table id="myTable" border="1" width="50%">			
+			<tr>
+			 <td>Row 1</td>
+			 <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+			</tr>
+			<tr>
+			 <td>Row 2</td>
+			 <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+			</tr>
+			<tr>
+			 <td>Row 3</td>
+			 <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript">
+	function deleteRow(r){
+		console.log(r);
+		var i=r.parentNode.parentNode.rowIndex;
+		console.log(i);
+		var parent = document.getElementById('myTable');
+		// parent.removeChild(parent.childNodes[i]);
+		document.getElementById('myTable').deleteRow(i);
+		 
+	}
+	function addRow(){
+		var row = document.createElement("tr");
+		var cell1 = document.createElement("td");
+		
+		var text1 = document.createTextNode("123");
+		cell1.appendChild(text1);
+		row.appendChild(cell1);
+
+		var cell2 =  document.createElement("td");
+		var text2 = document.createTextNode("456");
+		cell2.appendChild(text2);
+		row.appendChild(cell2);
+
+		document.getElementById('myTable').appendChild(row);
+	}
+	</script>
+	</body>
+</html>
